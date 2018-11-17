@@ -1,3 +1,70 @@
+
+/* Nav Bar */
 .navIcon {
     margin-left: 30px;
+  }
+
+nav {
+    background-color: #003366 !important;
+  }
+
+/* Main Card */
+
+.card-img-top {
+    float: left;
+    margin-right: 10px;
+    width: 200px !important;
+    height: 200px !important;
 }
+
+.card-title {
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
+}
+
+#bottom-spacer {
+    height: 400px;
+    width: 900px;
+    margin-bottom: 500px;
+}
+
+/* Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}  
+
+#parallax-BG {
+    background-color: black !important;
+}
+/* Carousel */
+.carousel-item{
+    margin-top: 80px !important;
+    height: 500px !important;
+    width: 670px !important;
+  }
+
+.carousel {
+    margin-top: 50px !important;
+    padding-top: 100px !important;
+}
+
+#carousel-header {
+    text-align: center;
+}
+
+.carousel-text {
+    text-align: center;
+}
+.page-footer {
+    background-color: #004d99 !important;
+}
+.footer-copyright {
+    background-color: #003366 !important;
+}
+

@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Patrick Gould</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="text/css" media="screen" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' href='text/css' media='screen' href='assets/css/reset.css'> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <!-- Jquery CDN -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <!-- Bootstrap CSS and Javascript CDN's -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+    
     <!-- Materialize CSS and Javascript CDN's -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
 </head>
 <body>
-   <div class="navbar-fixed">
+   <div class='navbar-fixed'>
     <nav>
-      <div class="nav-wrapper">
+      <div class='nav-wrapper'>
           <!-- possible icons from materialize 'all_inclusive' 'code' 'devices' 'developer_mode'  -->
-            <a href="#!" class="brand-logo"><i class="material-icons navIcon">developer_mode</i>Patrick Gould</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+            <a href='#!' class='brand-logo'><i class='material-icons navIcon'>developer_mode</i>Patrick Gould</a>
+        <ul class='right hide-on-med-and-down'>
+          <li><a href='index.html'><i class='material-icons left'>home</i>Home</a></li>
           <!-- receipt -->
-          <li><a href="resume.html"><i class="material-icons left">library_books</i>Resume</a></li>
+          <li><a href='resume.html'><i class='material-icons left'>library_books</i>Resume</a></li>
           <!-- possible logo 'assignment' -->
-          <li><a href="portfolio.html"><i class="material-icons left">folder</i>Portfolio</a></li>
+          <li><a href='portfolio.html'><i class='material-icons left'>folder</i>Portfolio</a></li>
           <!-- possible logo 'chat' -->
-          <li><a href="contact.html"><i class="material-icons left">email</i>Contact</a></li>
+          <li><a href='contact.html'><i class='material-icons left'>email</i>Contact</a></li>
           
         </ul>
       </div>
     </nav>
   </div>
-        
+  <div class='parallax-container'>
+      <div class='parallax'><img src='assets/images/skyline.jpg'></div>
+  </div>
+  <main>
+
+  
+
+  <!-- Main About Me Card -->
+  <div class="section black">
+  <div id='parallax-BG'class='row justify-content-md-center'>
+    <div class='col-sm-12 col-lg-auto'>
+      <div class='card' style='width: 60rem;'>
+        <div class='card-body'>
+          <h5 class='card-title'>About me</h5>
+          <img class='card-img-top' src='assets/images/profile.jpg'  alt='Card image cap'>
+          <p class='card-text'>My name is Patrick Gould and I am a native of the Greater Boston Area. I have spent my the majority of my life in and around city of Boston and I'm proud to call it home. At the age of 23 years old I am currently a Full Stack Web Developer and graduate of the UNH Coding Bootcamp. I absolutely love coding and pretty much everything tech related. Since I was a child I have aspired to work with computers and through hard work and dedication I have finally achieved that goal. </p>
+          <p class='card-text'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni ut sint error. Praesentium tenetur asperiores repellat et ut quidem assumenda nobis earum voluptate velit modi doloremque omnis facilis aspernatur fugiat, sapiente alias cupiditate. Odit, ducimus dolor quae obcaecati tempore quia, optio minima aliquid repudiandae deleniti ipsam sequi a ipsa unde doloremque ut voluptate exercitationem nisi ratione cumque. Illum necessitatibus adipisci harum ducimus dolore libero voluptates ratione consequuntur aliquam!
+          </p>
+          <p class='card-text'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni ut sint error. Praesentium tenetur asperiores repellat et ut quidem assumenda nobis earum voluptate velit modi doloremque omnis facilis aspernatur fugiat, sapiente alias cupiditate. Odit, ducimus dolor quae obcaecati tempore quia, optio minima aliquid repudiandae deleniti ipsam sequi a ipsa unde doloremque ut voluptate exercitationem nisi ratione cumque. Illum necessitatibus adipisci harum ducimus dolore libero voluptates ratione consequuntur aliquam!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class='parallax-container'>
+      <div class='parallax'><img src='assets/images/skyline6.jpg'></div>
+    </div>
+  </main>
+
+  <footer class='page-footer'>
+    <div class='footer-copyright'>
+      <div class='container'>
+      © 2018 Copyright Gould Design
+      </div>
+    </div>
+  </footer>        
 </body>
-<script src="assets/javascript/main.js"></script>
+<script src='assets/javascript/main.js'></script>
 </html>
