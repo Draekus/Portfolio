@@ -11,7 +11,7 @@
   firebase.initializeApp(config);
   
   
-const database = firebase.database();
+var database = firebase.database();
 
 
 $(document).ready(function(){
