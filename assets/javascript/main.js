@@ -4,5 +4,11 @@ $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({
         fullWidth: true
       });
+
+
+$("#submit-button").on("click", function(){
+    event.preventDefault();
+    
+})
   });
   

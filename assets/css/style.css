@@ -80,6 +80,30 @@ nav {
     margin-bottom: 70px;
 }
 
+/* Contact */
+#contact-card {
+    width: 900px !important;
+    margin: 100px auto !important;
+    padding: 30px;
+}
+
+#email {
+    width: 400px !important;
+}
+
+#first_name {
+    width: 400px !important;
+}
+
+#contact-title {
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    background-color: #001a33;
+}
+
 /* Footer */
 body {
     display: flex;
