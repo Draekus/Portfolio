@@ -8,8 +8,11 @@ nav {
     background-color: #003366 !important;
   }
 
-/* Main Card */
 
+/* Main Card */
+.card {
+    margin-top: 25px;
+}
 .card-img-top {
     float: left;
     margin-right: 10px;
@@ -28,19 +31,18 @@ nav {
     margin-bottom: 500px;
 }
 
-/* Footer */
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+
+#index-main {
+    background-color: white;
 }
 
-main {
-    flex: 1 0 auto;
-}  
+/* Portfolio Background Color */
+#portfolio-main {
+    background-color: white;
+}
 
 #parallax-BG {
-    background-color: black !important;
+    background-color: white !important;
 }
 /* Carousel */
 .carousel-item{
@@ -61,10 +63,41 @@ main {
 .carousel-text {
     text-align: center;
 }
+
+/*Resume  */
+#resume-main {
+    background-color: white;
+}
+
+#resume-card {
+    width: 600px !important;
+    margin: 30px auto !important;
+}
+
+#resume-button {
+    background-color: #001a33 !important;
+    margin-left: 470px;
+    margin-bottom: 70px;
+}
+
+/* Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .page-footer {
     background-color: #004d99 !important;
 }
+
 .footer-copyright {
     background-color: #003366 !important;
 }
+
+
 
