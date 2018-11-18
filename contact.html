@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <!-- Jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap CSS and Javascript CDN's -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     -->
+    
+     <!-- Firebase CDN -->
+     <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+     
+     <!-- Moment CDN -->
+     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <!-- Materialize CSS and Javascript CDN's -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -66,13 +68,21 @@
                   <label for="textarea2">Your message</label>
                 </div>
               </div>
-              <button class="btn waves-effect waves-light" type="submit" id="submit-button" name="action">Submit
+              <button class="btn waves-effect waves-light modal-trigger" type="submit" id="submit-button" data-target="modal1" name="action">Submit
                   <i class="material-icons right">send</i>
                 </button>
             </div>
           </form>
         </div>
-        
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4 id='modal-title'>Your Message Has Been Sent.</h4>
+              <p id='modal-text'>Thank You!</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>   
               
   </main>
   <footer class="page-footer">
