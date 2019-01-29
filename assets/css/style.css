@@ -16,8 +16,8 @@ nav {
 .card-img-top {
     float: left;
     margin-right: 10px;
-    width: 200px !important;
-    height: 200px !important;
+    width: 120px !important;
+    height: 120px !important;
 }
 
 .card-title {
@@ -36,7 +36,7 @@ nav {
     background-color: white;
 }
 
-/* Portfolio Background Color */
+/* Portfolio */
 #portfolio-main {
     background-color: white;
 }
@@ -44,24 +44,32 @@ nav {
 #parallax-BG {
     background-color: white !important;
 }
-/* Carousel */
-.carousel-item{
-    margin-top: 80px !important;
-    height: 500px !important;
-    width: 670px !important;
-  }
 
-.carousel {
-    margin-top: 50px !important;
-    padding-top: 100px !important;
+.portfolio-item-img {
+    width: 250px;
+    height: 150px;
+    margin: 17px 0;
+    border: solid black 2px;
+    /* height: 100px; */
+    /* float: right; */
 }
 
-#carousel-header {
-    text-align: center;
+.portfolio-item-wrapper {
+    border: solid #00004c 2px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px 0;
+    /* clear: both; */
 }
 
-.carousel-text {
-    text-align: center;
+.portfolio-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    /* float: left; */
+}
+
+.portfolio-item-description {
+    /* float: left; */
 }
 
 /*Resume  */
@@ -132,5 +140,16 @@ main {
     background-color: #003366 !important;
 }
 
+#linkedin-link {
+    margin-left: 600px;
+    margin-right: 25px;
+}
 
+#google-link {
+    margin-right: 25px;
+}
+
+#github-link {
+    margin-right: 400px;
+}
 
