@@ -1,6 +1,6 @@
 # Portfolio
 
-<a href"pgould94.github.io/Portfolio">Portfolio Site</a>
+<a href="pgould94.github.io/Portfolio">Portfolio Site</a>
 
 This is my Web Development portfolio. The main index page contains a general about me section that can be found underneath the parralax 
 background image. The top right of the navbar contains links to all the available pages e.g. Contact - Portfolio - Resume.
